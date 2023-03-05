@@ -74,8 +74,8 @@ https://github.com/docker/awesome-compose/tree/master/apache-php
      ```
    ### Ref
    - https://github.com/pitimon/dockerswarm-inhoure#swarm-init
-   
-   6. ทำการเตรียม Revert Proxy (#revert-proxy)
+
+6. ทำการเตรียม Revert Proxy (#revert-proxy)
 # Revert Proxy
 <a name="revert-proxy"></a>
 
