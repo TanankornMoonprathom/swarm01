@@ -50,7 +50,6 @@ https://github.com/docker/awesome-compose/tree/master/apache-php
     init 0
     ```
  5. ทำการเตรียม stack swarm and Portainer CE 
-    ```
 # Stack Swarm
 <a name="stack-swarm"></a>
 
