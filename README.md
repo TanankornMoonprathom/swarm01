@@ -49,3 +49,30 @@ https://github.com/docker/awesome-compose/tree/master/apache-php
     ln -s /etc/machine-id /var/lib/dbus/machine-id
     init 0
     ```
+ 5. ทำการเตรียม stack swarm and Portainer CE 
+    ```
+# Stack Swarm
+<a name="stack-swarm"></a>
+
+ - Manager Swarm
+
+   - Swarm init
+     ```
+     docker swarm init #รันในเครื่อง Manage
+     ```
+
+   - นำ Token Url ไป run บน worker ทุก Node ที่ต้องการให้เชื่อมต่อ
+
+   - Check Node Stack swarm
+     ```
+     docker node ls
+     ```
+
+   - install portainer CE
+     ```
+     curl -L https://downloads.portainer.io/ce2-17/portainer-agent-stack.yml -o portainer-agent-stack.yml
+     docker stack deploy -c portainer-agent-stack.yml portainer
+     ```
+
+   ### Ref
+   - https://github.com/pitimon/dockerswarm-inhoure#swarm-init
