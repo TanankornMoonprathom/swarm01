@@ -7,8 +7,7 @@ https://tan-swarm01.xops.ipv9.me/
 
 
 # ขั้นตอนในการทำงาน
-1. Create Image from Dockerfile
-# Create Image from Dockerfile
+# 1.Create Image from Dockerfile
  1. Create index.php
     <details>
     <summary>Show code</summary>
@@ -85,7 +84,7 @@ https://tan-swarm01.xops.ipv9.me/
     ```
 
     </details>
- 2. Create Dockerfile
+# 2. Create Dockerfile
     <details>
     <summary>Show code</summary>
 
