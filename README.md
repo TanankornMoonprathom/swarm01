@@ -7,10 +7,12 @@ https://tan-swarm01.xops.ipv9.me/
 
 
 # ขั้นตอนในการทำงาน
-# 1.Create Image from Dockerfile
-  1. Create index.php
+1. Create Image from Dockerfile
+# Create Image from Dockerfile
+ 1. Create index.php
     <details>
     <summary>Show code</summary>
+
     ```ruby   
     <!DOCTYPE html>
     <html>
@@ -83,10 +85,10 @@ https://tan-swarm01.xops.ipv9.me/
     ```
 
     </details>
-  2. Create Dockerfile
+ 2. Create Dockerfile
     <details>
     <summary>Show code</summary>
-  
+
     ```ruby
     FROM --platform=$BUILDPLATFORM php:8.0.9-apache as builder #image container
 
