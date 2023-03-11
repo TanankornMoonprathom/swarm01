@@ -136,35 +136,35 @@ https://tan-swarm01.xops.ipv9.me/
 
     ```ruby
     version: '3.3'
-services:
-  web:
+    services:
+    web:
     image: tanankorn/apache-php-web:0205
     networks:
-     - webproxy
+    - webproxy
     logging:
-      driver: json-file
+    driver: json-file
     volumes:
-      - app:/var/www/html/
+    - app:/var/www/html/
     container_name: swarm01-web2
     deploy:
-      replicas: 1
-      labels:
-        - traefik.docker.network=webproxy
-        - traefik.enable=true
-        - traefik.http.routers.${APPNAME}-https.entrypoints=websecure
-        - traefik.http.routers.${APPNAME}-https.rule=Host("${APPNAME}.xops.ipv9.me")
-        - traefik.http.routers.${APPNAME}-https.tls.certresolver=default
-        - traefik.http.services.${APPNAME}.loadbalancer.server.port=80
-      resources:
-        reservations:
-          cpus: '0.1'
-          memory: 10M
-        limits:
-          cpus: '0.4'
-          memory: 50M
-networks:
-  webproxy:
+    replicas: 1
+    labels:
+    - traefik.docker.network=webproxy
+    - traefik.enable=true
+    - traefik.http.routers.${APPNAME}-https.entrypoints=websecure
+    - traefik.http.routers.${APPNAME}-https.rule=Host("${APPNAME}.xops.ipv9.me")
+    - traefik.http.routers.${APPNAME}-https.tls.certresolver=default
+    - traefik.http.services.${APPNAME}.loadbalancer.server.port=80
+    resources:
+    reservations:
+    cpus: '0.1'
+    memory: 10M
+    limits:
+    cpus: '0.4'
+    memory: 50M
+    networks:
+    webproxy:
     external: true
-volumes:
-  app:
+    volumes:
+    app:
     ```
