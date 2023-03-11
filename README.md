@@ -167,3 +167,17 @@ https://tan-swarm01.xops.ipv9.me/
     volumes:
     app:
     ```
+# 3. Push docker-compose.yml to github swarm01
+# 4. Open https://portainer.ipv9.me/
+# 5. Click Cluster Xopx.ipv9.xyz on Portainer
+# 6. Click menu Stack on Cluster Xopx.ipv9.xyz
+
+<div align="center"><img src="app/image/cluster.png" width="500px"></div>
+
+# 7. Click button Add Stack
+
+<div align="center"><img src="app/image/menuservice.png" width="500px"></div>
+
+# 8. Click Build medthod is Repository
+
+<div align="center"><img src="app/image/addStack.png" width="500px"></div>
