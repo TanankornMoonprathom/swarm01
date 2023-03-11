@@ -171,6 +171,9 @@ https://tan-swarm01.xops.ipv9.me/
     ```
 # 3.Push docker-compose.yml to github swarm01
 # 4.Open https://portainer.ipv9.me/
+ 
+ ![image](https://user-images.githubusercontent.com/119097663/224484388-a617001c-cf34-49ce-9d7a-3c3d4b8bfc76.png)
+
 # 5.Click Cluster Xopx.ipv9.xyz on Portainer
 # 6.Click menu Stack on Cluster Xopx.ipv9.xyz
 
