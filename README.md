@@ -131,10 +131,10 @@ https://tan-swarm01.xops.ipv9.me/
      ```
 
 # 2.Create docker-compose.yml
-   <details>
-   <summary>Show code</summary>
+  <details>
+  <summary>Show code</summary>
 
-    ```ruby
+  ```ruby
     version: '3.3'
     services:
     web:
@@ -167,7 +167,7 @@ https://tan-swarm01.xops.ipv9.me/
     external: true
     volumes:
     app:
-    ```
+  ```
 # 3.Push docker-compose.yml to github swarm01
 # 4.Open https://portainer.ipv9.me/
 # 5.Click Cluster Xopx.ipv9.xyz on Portainer
