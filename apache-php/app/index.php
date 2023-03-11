@@ -9,7 +9,7 @@
             text-align: center;
         }
         body {
-            background-color: gray;
+            background-color: blue;
         }
         .topic {
           
@@ -26,7 +26,7 @@
 
         /* Set the text color to white */
         .white-text {
-            color: black;
+            color: purple;
         }
     </style>
 </head>
