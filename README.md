@@ -4,6 +4,8 @@ https://wakatime.com/@spcn01/projects/mrodfccdqw?start=2023-03-05&end=2023-03-11
 https://github.com/docker/awesome-compose/tree/master/apache-php
 # URL apache-php
 https://tan-swarm01.xops.ipv9.me/
+# git swarm01
+https://github.com/TanankornMoonprathom/swarm01.git
 
 
 # ขั้นตอนในการทำงาน
@@ -191,7 +193,7 @@ https://tan-swarm01.xops.ipv9.me/
  ![image](https://user-images.githubusercontent.com/119097663/224484639-134b525a-bae2-4187-92ad-f1ee12e08084.png)
 
  - Name = name Stack
-  - Repository URL = https://github.com/TanankornMoonprathom/swarm01
+  - Repository URL = https://github.com/TanankornMoonprathom/swarm01.git
   - Repository reference = refs/heads/main
   - Compose path = name Compose file
   - Automatic updates = enable
