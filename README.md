@@ -175,14 +175,25 @@ https://tan-swarm01.xops.ipv9.me/
  ![image](https://user-images.githubusercontent.com/119097663/224484388-a617001c-cf34-49ce-9d7a-3c3d4b8bfc76.png)
 
 # 5.Click Cluster Xopx.ipv9.xyz on Portainer
+ 
+ ![image](https://user-images.githubusercontent.com/119097663/224484436-f6e5f9a5-5520-409b-8d12-1cfc947404f5.png)
+ 
 # 6.Click menu Stack on Cluster Xopx.ipv9.xyz
-
-<div align="center"><img src="app/image/cluster.png" width="500px"></div>
+ 
+ ![image](https://user-images.githubusercontent.com/119097663/224484471-88edcac4-dcd8-437d-b741-ead184381b48.png)
 
 # 7.Click button Add Stack
 
-<div align="center"><img src="app/image/menuservice.png" width="500px"></div>
+![image](https://user-images.githubusercontent.com/119097663/224484514-0e6de6f0-c04e-44bf-bddb-df9bf0b2bb83.png)
 
 # 8.Click Build medthod is Repository
+ 
+ ![image](https://user-images.githubusercontent.com/119097663/224484639-134b525a-bae2-4187-92ad-f1ee12e08084.png)
 
-<div align="center"><img src="app/image/addStack.png" width="500px"></div>
+ - Name = name Stack
+  - Repository URL = https://github.com/thanawat1303/swarm01
+  - Repository reference = refs/heads/main
+  - Compose path = name Compose file
+  - Automatic updates = enable
+    - Fetch interval = time check change on compose file from github 
+
