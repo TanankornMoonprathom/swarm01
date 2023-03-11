@@ -130,7 +130,7 @@ https://tan-swarm01.xops.ipv9.me/
      ```
      docker push <image ID> <usernameDockerHub>/<repo>:<tag> #tanankorn/apache-php-web:0205
      ```
-2. Create docker-compose.yml
+# 2.Create docker-compose.yml
     <details>
     <summary>Show code</summary>
 
