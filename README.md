@@ -123,10 +123,10 @@ https://tan-swarm01.xops.ipv9.me/
  3. Build image from Dockerfile
  
     ```
-    docker build . -t <usernameDockerHub>/<repo>:<tag> #thanawat1303/apache2-php-index:v1
+    docker build . -t <usernameDockerHub>/<repo>:<tag> #tanankorn/apache-php-web:0205
     ```
  4. Push image to DockerHub
 
      ```
-     docker push <image ID> <usernameDockerHub>/<repo>:<tag> #thanawat1303/apache2-php-index:v1
+     docker push <image ID> <usernameDockerHub>/<repo>:<tag> #tanankorn/apache-php-web:0205
      ```
