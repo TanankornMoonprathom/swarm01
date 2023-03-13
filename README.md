@@ -180,11 +180,11 @@ https://github.com/TanankornMoonprathom/swarm01.git
  
  ![image](https://user-images.githubusercontent.com/119097663/224484436-f6e5f9a5-5520-409b-8d12-1cfc947404f5.png)
  
-# 6.Click menu Stack on Cluster Xopx.ipv9.xyz
+# 6.Click menu Stack บน Cluster Xopx.ipv9.xyz
  
  ![image](https://user-images.githubusercontent.com/119097663/224484471-88edcac4-dcd8-437d-b741-ead184381b48.png)
 
-# 7.Click button Add Stack
+# 7.Click ปุ่ม Add Stack
 
 ![image](https://user-images.githubusercontent.com/119097663/224484514-0e6de6f0-c04e-44bf-bddb-df9bf0b2bb83.png)
 
