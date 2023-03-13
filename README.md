@@ -9,8 +9,8 @@ https://github.com/TanankornMoonprathom/swarm01.git
 
 
 # ขั้นตอนในการทำงาน
-# 1. Create Image from Dockerfile
- 1. Create index.php
+# 1. สร้าง Image from Dockerfile
+ 1. สร้าง index.php
     <details>
     <summary>Show code</summary>
 
@@ -86,7 +86,7 @@ https://github.com/TanankornMoonprathom/swarm01.git
     ```
 
     </details>
- 2. Create Dockerfile
+ 2. สร้าง Dockerfile
     <details>
     <summary>Show code</summary>
 
@@ -126,14 +126,14 @@ https://github.com/TanankornMoonprathom/swarm01.git
     ```
     docker build . -t <usernameDockerHub>/<repo>:<tag> #tanankorn/apache-php-web:0205
     ```
- 4. Push image to DockerHub
+ 4. Push image ไปยัง DockerHub
 
      ```
      docker push <image ID> <usernameDockerHub>/<repo>:<tag> #tanankorn/apache-php-web:0205
      ```
 
-# 2.Create docker-compose.yml
- 1. Create docker-compose.yml
+# 2.สร้าง docker-compose.yml
+ 1. สร้างไฟล์ docker-compose.yml
     <details>
     <summary>Show code</summary>
 
@@ -172,7 +172,7 @@ https://github.com/TanankornMoonprathom/swarm01.git
     app:
     ```
 # 3.Push docker-compose.yml to github swarm01
-# 4.Open https://portainer.ipv9.me/
+# 4.เปิด https://portainer.ipv9.me/
  
  ![image](https://user-images.githubusercontent.com/119097663/224484388-a617001c-cf34-49ce-9d7a-3c3d4b8bfc76.png)
 
